@@ -1,6 +1,5 @@
 from flask import Flask,redirect,url_for,render_template
 import requests
-import time
 from flask_restful import Api, Resource, reqparse
 
 
