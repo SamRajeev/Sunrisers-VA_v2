@@ -12,6 +12,7 @@ reqobj.add_argument("searchbox", type=str, help="Command is required")
 
 BASE = "http://127.0.0.1:5000/"
 
+@webapp.route('/<query>')
 def Home(query):
     print(query)
     response = requests.put(BASE + "Functions" ,{"command":query})
