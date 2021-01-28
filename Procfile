@@ -1,1 +1,1 @@
-worker: python learn_flask.py
+web: gunicorn learn_flask:webapp
