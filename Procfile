@@ -1,1 +1,1 @@
-web: waitress-serve --port=12345 --url-scheme=https learn_flask:webapp
+web: waitress-serve learn_flask:webapp
