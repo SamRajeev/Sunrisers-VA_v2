@@ -1,1 +1,1 @@
-web: waitress-serve learn_flask:webapp
+worker: python learn_flask.py
