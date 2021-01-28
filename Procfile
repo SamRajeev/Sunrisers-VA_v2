@@ -1,1 +1,1 @@
-web: waitress-serve learn_flask:api
+web: waitress-serve learn_flask:webapp
